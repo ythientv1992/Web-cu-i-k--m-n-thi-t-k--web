@@ -1,0 +1,17 @@
+*{
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+header img{
+    width: 200px;
+    height: 100px;
+}
+header input{
+    height: 15px;
+    width: 0px auto;
+    
+}
