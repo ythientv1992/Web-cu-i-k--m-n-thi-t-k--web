@@ -7,7 +7,7 @@
   html {
     scroll-behavior: smooth;
   }
-  li#xoa{
+  li {
     list-style: none;
   }
   header nav ul li a{
@@ -20,7 +20,7 @@
     font-weight: 500;
     font-size: 15px;
     transition: 0.1s;
-  } 
+  }
   
   header nav ul li a::after{
     content: '';
@@ -219,7 +219,7 @@ background: #f00;
 color: #fff;
 font-size: 20px;
 }
-footer div div b#copyright{
+footer div div a#copyright{
   text-decoration: none;
   font-size: 20px;
 }
@@ -357,86 +357,4 @@ padding: 8px 4px;
 }
 
 
-div#chitietsanpham{
-    border: 3px solid black;
-    width: 60%;
-    margin-left: 300px;
-    background-color: rgba(255, 255, 255, 0.863);
-    margin-bottom: 30px;
-}
-#chitietsanpham #t1 b{
-    font-size: 35px;
-    margin-left: 50px;
-}
-#chitietsanpham #t1 i#star1{
-    margin-left: 50px;
-    margin-top: 10px;
-}
-#chitietsanpham #t1 i{
-    color: #f09b0b;
-}
-#chitietsanpham #chung #tnnb{
-    width: 100%;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-}
-#chitietsanpham #chung #tnnb #k1{
-    background-image: linear-gradient(to top right,#de6189,#efb392);
-    width: 40%;
-    border-radius: 10px;
-}
-#chitietsanpham #chung #tnnb #k2{
-    margin-left: 20px;
-    width: 55%;
-}
-#chitietsanpham #chung #tnnb #k1 p{
-    font-size: 40px;
-    text-align: center;
-}
-#chitietsanpham #chung #tnnb #k1 img{
-    height: 200px;
-    width: 150px;
-    border-radius: 10px;
-    margin-left: 120px;
-}
-#chitietsanpham #chung #tnnb #k1 ul li{
-    margin-left: 20px;
-}
-#chitietsanpham #chung #tnnb #k2 div b{
-    font-size: 20px;
-}#chitietsanpham #chung #tnnb #k2 div b#giamgia{
-    text-decoration: line-through;
-}
-#chitietsanpham #chung #tnnb #k2 div fieldset{
-    margin-top: 20px;
-    border: 3px solid black;
-    border-radius: 10px;
-    margin-bottom: 50px;
-}
 
-#chitietsanpham #chung #tnnb #k2 div fieldset legend{
-    border: 3px solid black;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 30px;
-}
-#chitietsanpham #chung #tnnb #k2 div fieldset p{
-    margin-left: 10px;
-    font-size: 20px;
-}
-#chitietsanpham #chung #tnnb #k2 div div#khac b{
-    background-color: red;
-    width: 40%;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: right;
-    padding: 5px 5px 5px 5px;
-    margin-top: 10px;
-    border-radius: 5px;
-    color: white;
-}
-#chitietsanpham #chung #tnnb #k2 div div#khac b#tg{
-    background-color: #75b6f7;
-}

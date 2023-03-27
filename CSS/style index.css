@@ -220,21 +220,27 @@ div#sanpham div.sanphamok #danghang div#box{
   margin: 0 auto;
   border: 3px solid #000;
   border-radius: 20px;
+  height: 410px;
 }
-div#sanpham div.sanphamok #danghang div img{
+div#sanpham div.sanphamok #danghang div a{
+  text-decoration: none;
+  color: black;
+}
+div#sanpham div.sanphamok #danghang div a img{
   margin-left: 30px;
   margin-top: 10px;
   height: 300px;
   width: 200px;
 }
-div#sanpham div.sanphamok #danghang div b#giamgia{
+div#sanpham div.sanphamok #danghang div a b#giamgia{
   text-decoration: line-through;
   margin-left: 10px;
 }
 
-div#sanpham div.sanphamok #danghang div p{
+div#sanpham div.sanphamok #danghang div a p{
   text-align: center;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 div#sanpham div.sanphamok #danghang div b#gia{
   margin-left: 30px;
@@ -460,4 +466,39 @@ footer div div img{
   footer .container, .noi-dung.about, .links, .contact{
       width: 100%;
   }
+}
+
+
+#top-up {
+  font-size: 3rem;
+  cursor: pointer;
+  position: fixed;
+  z-index: 9999;
+  color:#004993;
+  bottom: 20px;
+  right: 15px;
+  display: none;
+  }
+  #top-up:hover {
+  color: #333
+}
+
+
+#dinhanh{
+  margin-top: 50px;
+  margin-left: 200px;
+}
+#dinhanh a{
+  text-decoration: none;
+  color: black;
+  border: 2px solid rgb(255, 177, 190);
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  background-color: #b3cee991;
+}
+#dinhanh a:hover{
+  background-color: #48DD97;
+  color: rgb(255, 0, 0);
 }
