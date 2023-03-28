@@ -228,9 +228,22 @@ div#sanpham div.sanphamok #danghang div a{
 }
 div#sanpham div.sanphamok #danghang div a img{
   margin-left: 30px;
+  margin-top: 50px;
+  height: 250px;
+  width: 200px;
+}
+div#sanpham div.sanphamok #danghang div a#apple img{
+  margin-left: 30px;
   margin-top: 10px;
   height: 300px;
   width: 200px;
+}
+div#sanpham div.sanphamok #danghang div a#laptop img{
+  margin-left: 15px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 225px;
+  width: 225px;
 }
 div#sanpham div.sanphamok #danghang div a b#giamgia{
   text-decoration: line-through;
@@ -263,6 +276,26 @@ div#sanpham{
   margin-bottom: 50px;
 }
 
+
+div#sanpham div.sanphamok #danghang div#boxlaptop{
+  width: 18%;
+  margin: 0 auto;
+  border: 3px solid #000;
+  border-radius: 20px;
+  height: 350px;
+}
+div#sanpham div.sanphamok #danghang div#boxlaptop i#star1{
+  margin-top: 5px;
+  color: #f59e0b;
+  margin-left: 40px;
+}
+div#sanpham div.sanphamok #danghang div#boxlaptop i#star{
+  margin-top: 5px;
+  color: #f59e0b;
+}
+div#sanpham div.sanphamok #danghang div#boxlaptop i#heart{
+  color: red;
+}
 
 
 footer{

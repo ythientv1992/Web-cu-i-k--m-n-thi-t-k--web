@@ -7,6 +7,9 @@
   html {
     scroll-behavior: smooth;
   }
+  header{
+    background: #48DD97
+  }
   li#xoa{
     list-style: none;
   }
@@ -356,13 +359,18 @@ padding: 8px 4px;
     }
 }
 
-
+body{
+  background-color: rgba(211, 211, 211, 0.618);
+}
 div#chitietsanpham{
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
     width: 60%;
     margin-left: 300px;
     background-color: rgba(255, 255, 255, 0.863);
     margin-bottom: 30px;
+    box-shadow: 5px 5px  5px #a4a4a459;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 #chitietsanpham #t1 b{
     font-size: 35px;
