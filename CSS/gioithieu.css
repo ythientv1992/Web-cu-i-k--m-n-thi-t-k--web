@@ -16,7 +16,7 @@
   
   header nav ul li a{
     text-decoration: none;
-    color: #000;
+    color: #000000;
     font-weight: 500;
     font-size: 15px;
     transition: 0.1s;
@@ -66,7 +66,7 @@
   
   nav .content-nav ul li a {
     text-decoration: none;
-    color: #43433e;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 0 15px;
     font-weight: 800;
@@ -358,3 +358,52 @@ padding: 8px 4px;
 
 
 
+#gioithieuhaha p#la1{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: white;
+}
+#gioithieuhaha #la2{
+  display: flex;
+}
+#gioithieuhaha #la2 #la31{
+  margin-left: 350px;
+}
+#gioithieuhaha #la2 #la32{
+  margin-left: 400px;
+}
+#gioithieuhaha #la2 #la31 #tinh{
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(123, 240, 215);
+  border-radius: 100px;
+  margin-left: 30px;
+}
+#gioithieuhaha #la2 #la32 #hai{
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgb(123, 240, 215);
+  border-radius: 100px;
+  margin-left: 25px;
+}
+#gioithieuhaha #la2 #la31 p#la4{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#gioithieuhaha #la2 #la32 p#la5{
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body{
+  background-color: #202020;
+}
