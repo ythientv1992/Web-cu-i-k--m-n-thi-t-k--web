@@ -409,6 +409,18 @@ div#chitietsanpham{
     border-radius: 10px;
     margin-left: 120px;
 }
+
+
+
+#chitietsanpham #chung #tnnb #k1 img#laptop{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+
+
 #chitietsanpham #chung #tnnb #k1 ul li{
     margin-left: 20px;
 }
