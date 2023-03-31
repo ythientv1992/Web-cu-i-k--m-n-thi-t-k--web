@@ -43,7 +43,11 @@ header nav ul li a:hover::after{
 header nav ul li a:hover{
   color: #fac031;
 }
-div#background {
+div#background{
+  text-align: center;
+  background-image: linear-gradient(to right,#a6a6a6, #ffffff);
+}
+/* div#background {
   height: 80vh;
   background-color: #000;
   background-size: cover;
@@ -89,7 +93,7 @@ div#background {
   100% {
     background-image: url(../img/12.png);
   }
-}
+} */
 nav {
   padding: 15px;
   margin: 0 auto;
@@ -534,4 +538,7 @@ footer div div img{
 #dinhanh a:hover{
   background-color: #48DD97;
   color: rgb(255, 0, 0);
+}
+#box{
+  
 }
