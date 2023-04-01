@@ -53,7 +53,7 @@
             <a href="#donghothongminh" id="lan5">Đồng Hồ Thông Minh</a> 
         </div>
 
-        <div id="sanpham">
+        <div id="sanpham" class="reveal">
             <div class="sanphamok">
                 <br id="dienthoainoibat">
                 <h3 id="phansanpham" class="caidautienne">Điện Thoại Nổi Bật Nhất</h3>
@@ -144,7 +144,7 @@
                 </div>
             </div>
         </div>
-        <div id="sanpham">
+        <div id="sanpham" class="reveal">
             <div class="sanphamok">
                 <br id="Laptop1">
                 <h3 id="phansanpham">Các Loại Laptop</h3>
@@ -235,7 +235,7 @@
                 </div>
             </div>
         </div>
-        <div id="sanpham">
+        <div id="sanpham" class="reveal">
             <div class="sanphamok">
                 <br id="manhinhmaytinh">
                 <h3 id="phansanpham">Màn Hình, Máy Tính Để Bàn</h3>
@@ -326,7 +326,7 @@
                 </div>
             </div>
         </div>
-        <div id="sanpham">
+        <div id="sanpham" class="reveal">
             <div class="sanphamok">
                 <br id="maytinhban">
                 <h3 id="phansanpham">Máy Tính Bản</h3>
@@ -417,7 +417,7 @@
                 </div>
             </div>
         </div>
-        <div id="sanpham">
+        <div id="sanpham" class="reveal">
             <div class="sanphamok">
                 <br id="donghothongminh">
                 <h3 id="phansanpham">Đồng Hồ Thông Minh</h3>
@@ -513,7 +513,7 @@
 
 
 
-        <footer id="cuoitrang">
+        <footer id="cuoitrang" class="reveal">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <div class="container">
                 <div class="noi-dung about">
@@ -593,4 +593,22 @@
         <i class="fas fa-arrow-circle-up"></i></div>
     </body>
     <script src="js/tim.js"></script>
+    <script>
+        window.addEventListener('scroll', reveal);
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal');
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+                if (revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('active')
+                }
+                else {
+                    reveals[i].classList.remove('active')
+                }
+            }
+        }
+    </script>
 </html>

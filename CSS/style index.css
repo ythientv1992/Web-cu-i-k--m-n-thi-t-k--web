@@ -47,53 +47,6 @@ div#background{
   text-align: center;
   background-image: linear-gradient(to right,#a6a6a6, #ffffff);
 }
-/* div#background {
-  height: 80vh;
-  background-color: #000;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  animation-name: example;
-  animation-duration: 40s;
-  animation-iteration-count: infinite;
-}
-@keyframes example {
-  0% {
-    background-image: url(../img/1.png);
-  }
-  10% {
-    background-image: url(../img/3.jpg);
-  }
-  20% {
-    background-image: url(../img/4.jpg);
-  }
-  30% {
-    background-image: url(../img/5.jpg);
-  }
-  40% {
-    background-image: url(../img/6.png);
-  }
-  50% {
-    background-image: url(../img/7.jpg);
-  }
-  60% {
-    background-image: url(../img/8.jpg);
-  }
-  70% {
-    background-image: url(../img/9.jpg);
-  }
-  80% {
-    background-image: url(../img/10.jpg);
-  }
-  90% {
-    background-image: url(../img/11.jpg);
-  }
-  100% {
-    background-image: url(../img/12.png);
-  }
-} */
 nav {
   padding: 15px;
   margin: 0 auto;
@@ -541,4 +494,14 @@ footer div div img{
 }
 #box{
   
+}
+.reveal {
+  transform: translateY(150px);
+  position: relative;
+  opacity: 0;
+  transition: all 1s ease;
+}
+.reveal.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
