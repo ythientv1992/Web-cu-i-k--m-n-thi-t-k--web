@@ -183,14 +183,16 @@
     padding-top: 5px;
     padding-right: 10px;
 }
-.form-input{
+.form-input,
+.form-input-pass{
     background: transparent;
     border: 0;
     outline: 0;
     color: #f5f5f5;
     flex-grow: 1;
 }
-.form-input::placeholder{
+.form-input::placeholder,
+.form-input-pass::placeholder{
     color: #f5f5f5;
 }
 #eye i{
