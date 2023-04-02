@@ -125,5 +125,29 @@
 </body>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="js/anhien.js"></script>
-    <script src="js/dn.js"></script>
+    <script>
+        const inputUsername = document.querySelector(".form-input");
+        const inputPassword = document.querySelector(".form-input-pass");
+        const btnLogin = document.querySelector(".form-submit");
+
+
+
+        btnLogin.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (inputUsername.value === "" || inputPassword.value === "") {
+            alert("vui lòng không để trống");
+        } else {
+            const user = JSON.parse(localStorage.getItem(inputUsername.value));
+            if (
+            user.username === inputUsername.value &&
+            user.password === inputPassword.value
+            ) {
+            alert("Đăng Nhập Thành Công");
+            window.location.href = "index.html";
+            } else {
+            alert("Đăng Nhập Thất Bại");
+            }
+        }
+        });
+    </script>
 </html>

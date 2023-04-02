@@ -49,24 +49,24 @@
             <h1 class="form-heading">ĐĂNG KÝ</h1>
             <div class="form-group">
                 <i class="far fa-user"></i>
-                <input type="text" class="form-input" placeholder="Tên đăng nhập">
+                <input type="text" class="form-sinput" placeholder="Tên đăng nhập">
             </div>
             <div class="form-group">
                 <i class="fas fa-key"></i>
-                <input type="password" class="form-input-pass" placeholder="Mật khẩu">
+                <input type="password" class="form-sinput-pass" placeholder="Mật khẩu">
                 <div id="eye">
                     <i class="far fa-eye"></i>
                 </div>
             </div>
             <div class="form-group">
                 <i class="fas fa-key"></i>
-                <input type="password" class="form-input" placeholder="Nhập Lại Mật Khẩu">
+                <input type="password" class="form-sinput-pass" placeholder="Nhập Lại Mật Khẩu">
                 <div id="eye2">
                     <i class="far fa-eye"></i>
                 </div>
             </div>
             <input type="checkbox"><b id="dy"> Đồng Ý Với Thỏa Thuận Dịch Vụ</b>
-            <input type="submit" value="Đăng Ký" class="form-submit" class="buttomsubmit">
+            <input type="submit" value="Đăng Ký" class="form-submit">
             <div id="cctk"><b>Đã Có Tài Khoản </b><a href="login.html">( Đăng Nhập )</a></div>
         </form>
     </div>
@@ -134,5 +134,31 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="js/anhien.js"></script>
     <script src="js/anhien2.js"></script>
-    <script src="js/dk..js"></script>
+    <script>
+        const inputUsernameRegister = document.querySelector(".form-sinput");
+        const inputPasswordRegister = document.querySelector(".form-sinput-pass");
+        const btnRegister = document.querySelector(".form-submit");
+
+
+
+        btnRegister.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (
+            inputUsernameRegister.value === "" ||
+            inputPasswordRegister.value === ""
+        ) {
+            alert("vui lòng không để trống");
+        } else {
+
+            const user = {
+            username: inputUsernameRegister.value,
+            password: inputPasswordRegister.value,
+            };
+            let json = JSON.stringify(user);
+            localStorage.setItem(inputUsernameRegister.value, json);
+            alert("Đăng Ký Thành Công");
+            window.location.href = "login.html";
+        }
+        });
+    </script>
 </html>
